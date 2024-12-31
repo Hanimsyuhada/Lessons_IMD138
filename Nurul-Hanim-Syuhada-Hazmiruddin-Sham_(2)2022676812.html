@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Links</title>
+
+	<style>
+		a:link, a:unvisited
+		{
+			color: beige;
+			background-color: transparent;
+			text-decoration: none;
+		}
+		a:visited
+		{
+			color: black;
+			background-color: yellowgreen;
+			text-decoration: none;
+		}
+		a:hover, a:active
+		{
+			color: grey;
+			background-color: turquoise;
+			text-decoration: underline;
+		}
+
+	</style>
+</head>
+<body>
+
+	<h3>INTERNAL LINKS</h3>
+	<a href="html_style.html">HTML LINKS</a>
+
+	<h3>EXTERNAL LINKS</h3>
+	<a href="https://uitm.edu.my/index.php/en/">UiTM</a>
+
+	<h3>TARGET ATTRIBUTES</h3>
+
+	<a href="html_quotation.html" target="_blank" title="this link is about quotation">HTML QUOTATION</a> 
+	<br>
+
+	<a href="https://ufuture.uitm.edu.my/home/" target="_blank" title="this link root to uitm ufuture">UFUTURE</a>
+
+	<h3>IMAGE AS LINK</h3>
+	<a href="https://www.instagram.com/" target="_blank"title="go to instagram"> <img src="button/button_click-here.png"> </a>
+
+	<h3>BUTTON AS LINK</h3>
+	<button onclick="document.location='html_formating.html'">I'm Heree</button>
+
+
+</body>
+</html>
